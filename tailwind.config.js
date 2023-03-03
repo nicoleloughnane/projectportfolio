@@ -10,17 +10,20 @@ module.exports = {
       },
       colors: {
         //brand color palette (tailwind makes classes for these)
-        "brand-darkpurple": "#775DAB",
-        "brand-darkpurple-2": "#270041",
-        "brand-lightpurple": "#EDD2FF",
-        "brand-lightpink": "#FFE6FF",
-        
+       "brand-darkblue-0": "#0A2647",
+       "brand-darkblue-1": "#144272",
+       "brand-darkblue-3": "#04182B",
+        "brand-teal": "#2C74B3",
+        "brand-lightblue": "#28A9C9",
         "brand-cream": "#F3EFE0",
         "brand-gray": "#1E1E1E",
         "brand-black": "#222222",
         "brand-green": "#30BA91",
         "brand-red": "#BA3049",
       },
+      boxShadow: {
+        blue: "0 10px 30px -10px #144272"
+      }
     },
   },
   plugins: [],
