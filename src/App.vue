@@ -1,28 +1,7 @@
 <template>
-  <!--links to github and linkedin-->
-  <!-- <div class="navbar">
-  <header class="bg-brand-darkblue-3 shadow-lg shadow-brand-darkblue-3">
-    <nav>
-      <ul class="flex justify-end p-6">
-        <li class="mr-6">
-          <a class="" href="https://github.com/nicoleloughnane" target="_blank" title="My GitHub Profile Link">
-            <img class="w-12 h-12" src="./assets/logos/github-logo.png">
-          </a>
-        </li>
-        <li class="mr-6">
-          <a href="https://www.linkedin.com/in/nicole-loughnane/" target="_blank" title="My LinkedIn">
-            <img class="w-10 h-12" src="./assets/logos/LI-In-Bug.png">
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-</div> -->
-
-
 
   <!--profile picture and about me-->
-  <div class="flex mx-40 my-10 intro">
+  <div class="intro">
     <img class="profile" src="./assets/nicoleprofilecircle.png" />
     <div class="flex-col ml-6">
       <h2 class="text-3xl mb-3">Hello!</h2>
@@ -165,6 +144,13 @@ export default {
   width: 220px;
   height: 220px;
 }
+.intro {
+  display: flex;
+  margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 /*logical diagram */
 .logical {
   margin-left: auto;
@@ -217,6 +203,19 @@ body {
 @media screen and (max-width:650px) {
   .intro {
     flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-inline: 50px;
+    white-space: pre-line;
+  }
+  .profile {
+    display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
   }
 }
 
