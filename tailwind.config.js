@@ -4,7 +4,8 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   content: ["./public/index.html",
    "./src/**/*.{vue,js,ts,html}",
-   "./node_modules/tw-elements/dist/js/**/*.js"],
+   "./node_modules/flowbite/**/*.js",
+  ],
   theme: {
     extend: {
       fontFamily: {
@@ -28,5 +29,5 @@ module.exports = {
       }
     },
   },
-  plugins: [require("tw-elements/dist/plugin")],
+  plugins: [require('flowbite/plugin')],
 }

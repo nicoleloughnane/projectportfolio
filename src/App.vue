@@ -1,5 +1,6 @@
 <template>
   <!--links to github and linkedin-->
+  <!-- <div class="navbar">
   <header class="bg-brand-darkblue-3 shadow-lg shadow-brand-darkblue-3">
     <nav>
       <ul class="flex justify-end p-6">
@@ -16,8 +17,12 @@
       </ul>
     </nav>
   </header>
+</div> -->
+
+
+
   <!--profile picture and about me-->
-  <div class="flex mx-20 my-10">
+  <div class="flex mx-40 my-10 intro">
     <img class="profile" src="./assets/nicoleprofilecircle.png" />
     <div class="flex-col ml-6">
       <h2 class="text-3xl mb-3">Hello!</h2>
@@ -39,7 +44,7 @@
   <!--technologies and logos-->
   <div class="mx-20">
     <h3 class="text-xl my-4">Technologies I Use</h3>
-    <div class="grid grid-cols-6 gap-6">
+    <div class="technologies">
       <img class="logo" src="./assets/logos/js.png" alt="javascript logo" />
       <img class="logo" src="./assets/logos/java.png" alt="java logo" />
       <img class="logo" src="./assets/logos/c-sharp.png" alt="c# logo" />
@@ -59,7 +64,7 @@
   <div class="mx-20 mt-8">
     <h2 class="text-3xl my-4">Projects</h2>
     <!--dfj-->
-    <img class="mx-auto" src="./assets/dailyfaithjournal/logicaldiagram.png" alt="Logical diagram of dfj" />
+    <img class="logical" src="./assets/dailyfaithjournal/logicaldiagram.png" alt="Logical diagram of dfj" />
     <!--description-->
     <h3 class="text-xl my-4 font-bold">Daily Faith Journal</h3>
     <a class="text-base my-4 text-brand-lightblue" href="https://github.com/nicoleloughnane/CST452Capstone"
@@ -76,7 +81,7 @@
     </p>
 
     <!--Podcast Prototype project-->
-    <div class="grid grid-cols-4 gap-4 ">
+    <div class="wireframes">
       <img class="wireframe" src="./assets/uxclass/LoginMain.png" alt="Login wireframe" />
       <img class="wireframe" src="./assets/uxclass/recovery.png" alt="Account Recovery wireframe" />
       <img class="wireframe" src="./assets/uxclass/OneGenre.png" alt="one genre wireframe" />
@@ -111,10 +116,10 @@
     <!--C# Minesweeper-->
     <h3 class="text-xl mt-4 font-bold">Minesweeper Game in C#</h3>
     <h3 class="text-base italic text-brand-lightblue mt-2 mb-4">Grand Canyon University CLC (Group Project)</h3>
-    <div class="grid grid-cols-3 gap-4 mb-4">
-      <img class="w-96 h-96" src="./assets/minesweeper/minesweeper.png" alt="Minesweeper Board" />
-      <img class="w-96 h-96" src="./assets/minesweeper/codesnippet.png" alt="Minesweeper Board Code Snippet" />
-      <img class="w-full h-96" src="./assets/minesweeper/savegame.png" alt="Save Game" />
+    <div class="minesweeper mb-4">
+      <img class="minesweeperSnippet" src="./assets/minesweeper/minesweeper.png" alt="Minesweeper Board" />
+      <img class="minesweeperSnippet" src="./assets/minesweeper/codesnippet.png" alt="Minesweeper Board Code Snippet" />
+      <img class="minesweeperSnippet" src="./assets/minesweeper/savegame.png" alt="Save Game" />
     </div>
 
     <!--description-->
@@ -154,22 +159,77 @@ export default {
 </script>
 
 <style>
-body {
-  background-color: #0a2647;
-  color: #fff;
-}
 
+/*profile picture */
 .profile {
   width: 220px;
   height: 220px;
 }
-
+/*logical diagram */
+.logical {
+  margin-left: auto;
+  margin-right: auto;
+}
+/*group of logos */
+.technologies {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 18px;
+}
+/*one technology logo*/
 .logo {
   width: 60px;
   height: 60px;
 }
 
+/*the group of wireframes */
+.wireframes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 20px;
+}
+/* one wireframe */
 .wireframe {
-  width: 180px;
+  max-width: 100%;
   height: 350px;
-}</style>
+}
+
+/*group of snippets from minesweeper project */
+.minesweeper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+/*one snippet */
+.minesweeperSnippet {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  image-rendering: pixelated;
+}
+
+body {
+  background-color: #0a2647;
+  color: #fff;
+}
+
+/*for smaller screens */
+@media screen and (max-width:650px) {
+  .intro {
+    flex-direction: column;
+  }
+}
+
+/*media queries for responsive grid sizes */
+@media (max-width:480px) {
+  .technologies {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:780px) {
+  .technologies {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+</style>
