@@ -62,7 +62,7 @@
     <!--Podcast Prototype project-->
     <div class="wireframes">
       <img class="wireframe" src="./assets/uxclass/LoginMain.png" alt="Login wireframe" />
-      <img class="wireframe" src="./assets/uxclass/recovery.png" alt="Account Recovery wireframe" />
+      <!-- <img class="wireframe" src="./assets/uxclass/recovery.png" alt="Account Recovery wireframe" /> -->
       <img class="wireframe" src="./assets/uxclass/OneGenre.png" alt="one genre wireframe" />
       <img class="wireframe" src="./assets/uxclass/Search.png" alt="Search wireframe" />
     </div>
@@ -188,7 +188,7 @@ export default {
 }
 /*one snippet */
 .minesweeperSnippet {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   object-fit: cover;
   image-rendering: pixelated;
