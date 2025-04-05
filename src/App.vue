@@ -2,13 +2,15 @@
 
   <!--profile picture and about me-->
   <div class="intro">
-    <img class="profile" src="./assets/nicoleprofilecircle.png" />
+    <!-- <img class="profile" src="./assets/nicoleprofilecircle.png" /> -->
+    <img class="profile" src="./assets/profile-picture-circle.png" />
     <div class="flex-col ml-6">
       <h2 class="text-3xl mb-3">Hello!</h2>
       <p class="text-base">
-        My name is Nicole Loughnane. I am a student at Grand Canyon University
-        (GCU) and set to graduate in Summer of 2023 with a Bachelor of Science
-        in Software Development.
+        Hello, I'm Nicole Buckley! I am a UX/UI designer currently working in the defense and intelligence
+        space. I specialize in pioneering new frontend projects to improve user experiences by modernizing legacy UIs,
+        bug squashing, and more! My passion lies in
+        learning user needs and translating them into user-centered experiences and well-rounded documentation.
       </p>
       <h2 class="text-2xl my-4">About Me</h2>
       <p class="text-base my-4">
@@ -21,7 +23,7 @@
     </div>
   </div>
   <!--technologies and logos-->
-  <div class="mx-20">
+  <!-- <div class="mx-20">
     <h3 class="text-xl my-4">Technologies I Use</h3>
     <div class="technologies">
       <img class="logo" src="./assets/logos/js.png" alt="javascript logo" />
@@ -37,27 +39,30 @@
       <img class="logo" src="./assets/logos/angular.png" alt="angular logo" />
       <img class="logo" src="./assets/logos/react.png" alt="react logo" />
     </div>
-  </div>
+  </div> -->
 
   <!--projects-->
   <div class="mx-20 mt-8">
     <h2 class="text-3xl my-4">Projects</h2>
     <!--dfj-->
-    <img class="logical" src="./assets/dailyfaithjournal/logicaldiagram.png" alt="Logical diagram of dfj" />
+    <!-- <img class="logical" src="./assets/dailyfaithjournal/logicaldiagram.png" alt="Logical diagram of dfj" /> -->
     <!--description-->
     <h3 class="text-xl my-4 font-bold">Daily Faith Journal</h3>
+    <h3 class="text-base italic text-brand-lightblue">September 2023 - April 2023</h3>
+    <img src="./assets/dailyfaithjournal/dfj-logo.png" />
+    <p class="text-base mt-4 mb-8">
+      My CST 452 Senior Capstone Project at Grand Canyon University, called Daily
+      Faith Journal, was built with the MEVN stack (MongoDB, Express, Vue, and Node).
+      In Daily Faith Journal,
+      users have the ability to
+      create journal entries and record sermon notes taken a church through a
+      convenient online platform. The app is designed to be accessible and responsive through
+      the web browser on either a computer or a mobile device.
+    </p>
     <a class="text-base my-4 text-brand-lightblue" href="https://github.com/nicoleloughnane/CST452Capstone"
       target="_blank" title="GitHub source code">
-      Check out the project here
+      Check out the project on GitHub
     </a>
-    <p class="text-base mt-4 mb-8">
-      My CST 452 Senior Capstone Project at Grand Canyon University called Daily
-      Faith Journal built with the MEVN stack (MongoDB, Express, Vue, and Node)
-      is set to be complete by the middle of April 2023. Users will be able to
-      create journal entries and record sermon notes taken a church through a
-      convenient online platform. It will be accessible and responsive through
-      the web browser on either computer or mobile device.
-    </p>
 
     <!--Podcast Prototype project-->
     <div class="wireframes">
@@ -81,15 +86,17 @@
     </p>
 
     <!--WIP: Wilcox VR Project-->
-    <h3 class="text-xl my-4 font-bold">Wilcox VR Project (In Progress)</h3>
-    <h3 class="text-base italic text-brand-lightblue">Estimated Completion April 2023</h3>
+    <h3 class="text-xl my-4 font-bold">Wilcox VR Project</h3>
+    <h3 class="text-base italic text-brand-lightblue">April 2023</h3>
 
     <p class="text-base my-4">
-      In my Human Computer Interaction and Communication Class (CST-320) my class of 11 students are collaborating with a
-      museum in Wilcox, AZ
-      to make a VR game for them so as to immerse their visitors in the experience of what Wilcox was like back in the
-      1880s. This is set to be complete by the end of April 2023. I am in a small group working on a telegraph station. We
-      are using Unity and C# to develop the game, and Oculus Quest 2 headsets to test the project.
+      In my Human Computer Interaction and Communication Class (CST-320) my class of 11 students collaborated with
+      a museum in Wilcox, AZ
+      to make a VR game for them. They desire to immerse their visitors in the experience of what Wilcox was like back
+      in the
+      1880s. The initial phase of this project was completed in April 2023. My role was on the a small team where we
+      worked to build a telegraph station.
+      We used Unity and C# to develop the game, and Oculus Quest 2 headsets play it.
     </p>
 
     <!--C# Minesweeper-->
@@ -112,13 +119,16 @@
       <li>Agile Project Management</li>
     </ul>
     <p class="text-base my-4">
-      In my C# III class we learned how to take an implementation of the game Minesweeper from the console to the web in a
+      In my C# III class we learned how to take an implementation of the game Minesweeper from the console to the web in
+      a
       group project. To do
-      this we went through 2 C# classes prior to this where we learned C# as a language, how to make console apps, and win
+      this we went through 2 C# classes prior to this where we learned C# as a language, how to make console apps, and
+      win
       form apps. The next course taught object oriented concepts along with some more advanced subjects like recursion
       (also
       taught in our Java courses). This class was my first in which I worked a team to accomplish the task at hand and
-      since then I have had many group projects which I enjoy doing so that we can efficiently deliver sprints while also
+      since then I have had many group projects which I enjoy doing so that we can efficiently deliver sprints while
+      also
       working on our strengths that we can bring to the project as a whole.
     </p>
 
@@ -138,30 +148,33 @@ export default {
 </script>
 
 <style>
-
 /*profile picture */
 .profile {
   width: 220px;
   height: 220px;
 }
+
 .intro {
   display: flex;
   margin-left: 160px;
-    margin-right: 160px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+  margin-right: 160px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
+
 /*logical diagram */
 .logical {
   margin-left: auto;
   margin-right: auto;
 }
+
 /*group of logos */
 .technologies {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 18px;
 }
+
 /*one technology logo*/
 .logo {
   width: 60px;
@@ -174,6 +187,7 @@ export default {
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 20px;
 }
+
 /* one wireframe */
 .wireframe {
   max-width: 100%;
@@ -186,6 +200,7 @@ export default {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px;
 }
+
 /*one snippet */
 .minesweeperSnippet {
   max-width: 90%;
@@ -209,13 +224,14 @@ body {
     margin-inline: 50px;
     white-space: pre-line;
   }
+
   .profile {
     display: block;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 200px;
-  height: auto;
-  border-radius: 50%;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
   }
 }
 
