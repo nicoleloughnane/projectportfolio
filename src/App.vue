@@ -6,7 +6,7 @@
       <!-- <img class="profile" src="./assets/nicoleprofilecircle.png" /> -->
       <img class="profile" src="./assets/profile-picture-circle.png" />
       <div class="flex-col ml-6">
-        <h2 class="text-3xl mb-3">Hello I'm Nicole Buckley!</h2>
+        <h2 class="text-3xl mb-3">Hello, I'm Nicole Buckley!</h2>
         <p class="text-base">
           I am a UX/UI engineer currently working in the defense and intelligence
           space. I specialize in pioneering new frontend projects to improve user experiences by modernizing legacy UIs,
@@ -42,11 +42,10 @@
         convenient online platform. The app is designed to be accessible and responsive through
         the web browser on either a computer or a mobile device.
       </p>
-      <div class="project-grid">
-        <img class="project-grid-item" src="./assets/dailyfaithjournal/dfj-help-center.png" />
-        <img class="project-grid-item pl-28" src="./assets/dailyfaithjournal/dfj-color-palette.png" />
-        <!-- <img class="project-grid-item" src="./assets/dailyfaithjournal/dfj-login-web.png" /> -->
-        <img class="project-grid-item pl-20" src="./assets/dailyfaithjournal/dfj-update-journal-entry.png" />
+      <div class="project-flex">
+        <img class="project-flex-item" src="./assets/dailyfaithjournal/dfj-help-center.png" />
+        <img class="project-flex-item" src="./assets/dailyfaithjournal/dfj-color-palette.png" />
+        <img class="project-flex-item" src="./assets/dailyfaithjournal/dfj-update-journal-entry.png" />
       </div>
       <div class="pt-10 pb-10">
         <a class="text-base my-4 text-brand-lightblue" href="https://github.com/nicoleloughnane/CST452Capstone"
@@ -64,23 +63,20 @@
         Adobe XD. We also did user testing in Maze to determine how intuitive our
         designs were
       </p>
-      <div class="project-grid pb-10">
-        <img class="project-grid-item" src="./assets/uxclass/LoginMain.png" alt="Login wireframe" />
-        <!-- <img class="wireframe" src="./assets/uxclass/recovery.png" alt="Account Recovery wireframe" /> -->
-        <img class="project-grid-item" src="./assets/uxclass/OneGenre.png" alt="one genre wireframe" />
-        <img class="project-grid-item" src="./assets/uxclass/Search.png" alt="Search wireframe" />
+      <div class="project-flex pb-10">
+        <img class="project-flex-item" src="./assets/uxclass/login-main.png" alt="Login wireframe" />
+        <img class="project-flex-item" src="./assets/uxclass/new-playlists.png" alt="my library wireframe" />
+        <img class="project-flex-item" src="./assets/uxclass/recovery.png" alt="Account Recovery wireframe" />
       </div>
       <hr />
-      <!--WIP: Wilcox VR Project-->
+      <!--Wilcox VR Project-->
       <h3 class="text-xl my-4 font-bold">Wilcox VR Project</h3>
       <h3 class="text-base italic text-brand-lightblue">April 2023</h3>
 
       <p class="text-base my-4 pb-10">
         In my Human Computer Interaction and Communication Class (CST-320) my class of 11 students collaborated with
-        a museum in Wilcox, AZ
-        to make a VR game for them. They desire to immerse their visitors in the experience of what Wilcox was like back
-        in the
-        1880s. The initial phase of this project was completed in April 2023. My role was on the a small team where we
+        a museum in Wilcox, AZ to make a VR game for them. They expressed their goal was to immerse their visitors in the experience of what Wilcox was like back
+        in the 1880s. The initial phase of this project was completed in April 2023. My role was on the a small team where we
         worked to build a telegraph station.
         We used Unity and C# to develop the game, and Oculus Quest 2 headsets play it.
       </p>
@@ -151,23 +147,23 @@ export default {
 }
 
 /*grid of images */
-.project-grid {
+/* .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   grid-gap: 20px;
-}
+} */
 
 /* one image */
-.project-grid-item {
+.project-flex-item {
   max-width: 100%;
   height: 350px;
 }
 
-/* color palette */
-/* .project-grid-color-palette {
-  padding-left: 80px;
-} */
-
+.project-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
 
 /*group of snippets from minesweeper project */
 .minesweeper {
