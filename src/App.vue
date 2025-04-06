@@ -16,7 +16,8 @@
         <h2 class="text-2xl my-4">About Me</h2>
         <p class="text-base my-4">
           My journey in the realm of computer science started in college when I decided I wanted to combine
-          my interests in art and computers into UX design. Currently, I reside in Phoenix, AZ where I spend my days
+          my interests in art and computers into UX design. Currently, I reside in Phoenix, AZ where I spend my free
+          time
           playing video games, drawing, and spending time with
           my family.
         </p>
@@ -47,7 +48,19 @@
         <img class="project-flex-item" src="./assets/dailyfaithjournal/dfj-color-palette.png" />
         <img class="project-flex-item" src="./assets/dailyfaithjournal/dfj-update-journal-entry.png" />
       </div>
-      <div class="pt-10 pb-10">
+      <p class="text-base mt-4 mb-8">
+        In this class, I singlehandedly saw this project through its initial planning stages, proposal, wireframing,
+        development, and
+        deployment. The first semester of the course was spent planning and providing our professor with a mock proposal
+        for the project. I defined the scope and requirements and how the app would address a user need and help resolve
+        their problem. I planned tickets and sprints using Jira. The second semester of the course was spent completing
+        those tickets by developing the project. I started with low fidelity wireframes in pencil and paper then
+        translated them to high fidelity wireframes in Adobe XD (as displayed above) as well as a
+        color palette to give my app and overall theme. I based the theme off of my university's colors (purple and
+        white). Then, I implemented those wireframes using Vue.js and Tailwind CSS. I used a mock backend to start but
+        then connected the project to a backend I built using Express and MongoDB for my database.
+      </p>
+      <div class="pb-10">
         <a class="text-base my-4 text-brand-lightblue" href="https://github.com/nicoleloughnane/CST452Capstone"
           target="_blank" title="GitHub source code">
           Check out the project on GitHub
@@ -60,14 +73,19 @@
       <p class="text-base my-4">
         In my User Experience Design (DDN-240) class at Grand Canyon University,
         our task was to design a mobile application for podcast listening using
-        Adobe XD. We also did user testing in Maze to determine how intuitive our
-        designs were
+        Adobe XD. We also did user testing in Maze to determine if we needed to make changes to the user flow and/or
+        design.
       </p>
       <div class="project-flex pb-10">
         <img class="project-flex-item" src="./assets/uxclass/login-main.png" alt="Login wireframe" />
         <img class="project-flex-item" src="./assets/uxclass/new-playlists.png" alt="my library wireframe" />
         <img class="project-flex-item" src="./assets/uxclass/recovery.png" alt="Account Recovery wireframe" />
       </div>
+      <p class="text-base mb-4">
+        We started off by conducting research and interviews, sketching the wireframes on paper,
+        then
+        implementing them in Adobe XD as low fidelity wireframes, and finally designing the color palette, typography,
+        and more to create the final high fidelity wireframes.</p>
       <hr />
       <!--Wilcox VR Project-->
       <h3 class="text-xl my-4 font-bold">Wilcox VR Project</h3>
@@ -75,8 +93,10 @@
 
       <p class="text-base my-4 pb-10">
         In my Human Computer Interaction and Communication Class (CST-320) my class of 11 students collaborated with
-        a museum in Wilcox, AZ to make a VR game for them. They expressed their goal was to immerse their visitors in the experience of what Wilcox was like back
-        in the 1880s. The initial phase of this project was completed in April 2023. My role was on the a small team where we
+        a museum in Wilcox, AZ to make a VR game for them. They expressed their goal was to immerse their visitors in
+        the experience of what Wilcox was like back
+        in the 1880s. The initial phase of this project was completed in April 2023. My role was on the a small team
+        where we
         worked to build a telegraph station.
         We used Unity and C# to develop the game, and Oculus Quest 2 headsets play it.
       </p>
