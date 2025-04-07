@@ -1,17 +1,8 @@
 <template>
-<header class="fixed w-full py-4 px-8 flex justify-end items-center">
-    <a 
-      href="./assets/Nicole_Buckley_Resume.pdf" 
-      download
-      class="text-white hover:text-gray-200 transition-colors duration-300 font-medium"
-    >
-      Resume
-    </a>
-  </header>
+  <MyHeader />
   <!--profile picture and about me-->
   <div class="main">
     <div class="intro">
-      <!-- <img class="profile" src="./assets/nicoleprofilecircle.png" /> -->
       <img class="profile" src="./assets/profile-picture-circle.png" />
       <div class="flex-col ml-6">
         <h2 class="text-3xl mb-3">Hello, I'm Nicole Buckley!</h2>
@@ -128,13 +119,17 @@
 
     </div>
   </div>
+  <MyFooter />
 </template>
 
 <script>
+import MyFooter from './components/MyFooter.vue';
+import MyHeader from './components/MyHeader.vue';
 export default {
   name: "App",
   components: {
-
+    MyFooter,
+    MyHeader
   },
   data() {
     return {};
@@ -231,19 +226,6 @@ body {
     max-width: 200px;
     height: auto;
     border-radius: 50%;
-  }
-}
-
-/*media queries for responsive grid sizes */
-@media (max-width:480px) {
-  .technologies {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width:780px) {
-  .technologies {
-    grid-template-columns: repeat(2, 1fr);
   }
 }
 </style>
