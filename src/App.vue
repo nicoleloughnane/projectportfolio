@@ -178,14 +178,26 @@ export default {
 
 /* one image */
 .project-flex-item {
-  max-width: 100%;
-  height: 350px;
+  width: 100%;
+  height: auto;
 }
 
 .project-flex {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  gap: 20px;
+}
+
+@media screen and (max-width:1800px) {
+  .project-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-flex-item {
+    width: 80%;
+    margin-bottom: 20px;
+  }
 }
 
 /*group of snippets from minesweeper project */
