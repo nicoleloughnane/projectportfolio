@@ -15,7 +15,7 @@
         <h2 class="text-2xl my-4">About Me</h2>
         <p class="text-base my-4">
           My journey in the realm of computer science started in college when I decided I wanted to combine
-          my interests in art and computers into UX design. Currently, I reside in Phoenix, AZ where I spend my free
+          my interests in art and computers into frontend development as well as UI design. Currently, I reside in Phoenix, AZ where I spend my free
           time
           playing video games, drawing, and spending time with
           my family.
