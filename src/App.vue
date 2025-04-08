@@ -68,9 +68,9 @@
             resolve
             their problems. I planned tickets and sprints using Jira. The second semester of the course was spent
             completing
-            those tickets by developing the project. I started with low fidelity wireframes in pencil and paper then
-            translated them to high fidelity wireframes in Adobe XD (as displayed below), as well as a
-            color palette to give my app and overall theme. I based the theme off of my university's colors (purple and
+            those tickets by developing the project. I started with low-fidelity wireframes in pencil and paper, then
+            translated them to high-fidelity wireframes in Adobe XD (as displayed below), as well as a
+            color palette to give my app an overall theme. I based the theme off of my university's colors (purple and
             white). Then, I implemented those wireframes using Vue.js and Tailwind CSS. I used a mock backend to start
             and later connected the project to a backend I built using Express and MongoDB for my database.
           </p>
@@ -98,8 +98,8 @@
         Adobe XD. We also did user testing in Maze to determine if we needed to make changes to the user flow or
         design. We started off by conducting research and interviews, sketching the wireframes on paper,
         then
-        implementing them in Adobe XD as low fidelity wireframes. Lastly, we designed the color palette, typography,
-        and more to create the final high fidelity wireframes.
+        implementing them in Adobe XD as low-fidelity wireframes. Lastly, we designed the color palette, typography,
+        and more to create the final high-fidelity wireframes.
       </p>
       <div class="project-flex pb-10">
         <img class="project-flex-item ux-wireframe" src="./assets/uxclass/login-main.png" alt="Login wireframe" />
@@ -114,7 +114,7 @@
       <h3 class="text-base italic text-brand-lightblue">April 2023</h3>
 
       <p class="text-base my-4 pb-10">
-        In my Human Computer Interaction and Communication Class (CST-320), my class of 11 students collaborated with
+        In my Human Computer Interaction and Communication class (CST-320), my class of 11 students collaborated with
         a museum in Wilcox, AZ to make a VR game for them. They expressed their goal was to immerse their visitors in
         the experience of what Wilcox was like back
         in the 1880s. The initial phase of this project was completed in April 2023. I was part of a small team
@@ -132,7 +132,8 @@
       </div>
       <p class="text-base my-4">
         In my C# III class, we learned how to take an implementation of the game Minesweeper from a console with no user
-        interface to a web based game in a group project. This was the first class where I worked a team to build an
+        interface to a web-based game in a group project. This was the first class where I worked with a team to build
+        an
         application.
         The requirements for the project were to implement a user login/registration system, a minesweeper game, and a
         way to save
