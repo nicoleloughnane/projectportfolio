@@ -8,7 +8,8 @@
         <h2 class="text-3xl mb-3">Hello, I'm Nicole Buckley!</h2>
         <p class="text-base">
           I am a UX/UI engineer currently working in the defense and intelligence
-          space. I specialize in pioneering new frontend projects to improve user experiences by modernizing legacy UIs,
+          industry. I specialize in pioneering new frontend projects to improve user experiences by modernizing legacy
+          UIs,
           applying user feedback, and more! My passion lies in
           learning user needs and translating them into user-centered experiences and well-rounded documentation.
         </p>
@@ -16,7 +17,7 @@
         <p class="text-base my-4">
           My journey in the realm of computer science started in college when I decided I wanted to combine
           my interests in art and computers into frontend development as well as UI design. Currently, I reside in
-          Phoenix, AZ where I spend my free
+          Phoenix, AZ, where I spend my free
           time
           playing video games, drawing, and spending time with
           my family.
@@ -27,6 +28,22 @@
     <!--projects-->
     <div class="my-work">
       <h2 class="text-3xl my-4">My Work</h2>
+      <h3 class="text-xl my-4 font-bold">Prime Solutions Group, Inc.</h3>
+      <h3 class="text-s my-4">Associate Software Engineer | Software/Cloud Intern</h3>
+      <h3 class="text-base italic text-brand-lightblue mb-3">June 2023 - present</h3>
+      <div class="ml-5">
+        <ul class="list-disc">
+          <li>Contracting with a Fortune 500 company as a UX Engineer to create a React frontend to interface with
+            existing backend. </li>
+          <li>Pioneered comprehensive documentation efforts for an existing product, enhancing developer setup and new
+            user understanding.</li>
+          <li>Resolved numerous critical and non-critical bugs in legacy system, thereby improving system stability and
+            user experience.</li>
+          <li>Designed scalable AWS ecosystem to demonstrate proposed accelerated delivery of internal project.</li>
+          <li>Worked with team to develop a user friendly Vue.js frontend and Python middleware server to interface with
+            internal tool.</li>
+        </ul>
+      </div>
       <!--dfj-->
       <h3 class="text-xl my-4 font-bold">Daily Faith Journal</h3>
       <h3 class="text-base italic text-brand-lightblue">September 2023 - April 2023</h3>
@@ -38,7 +55,7 @@
             Faith Journal, was built with the MEVN stack (MongoDB, Express, Vue, and Node).
             In Daily Faith Journal,
             users have the ability to
-            create journal entries and record sermon notes taken a church through a
+            create journal entries and record sermon notes from a church service through a
             convenient online platform. The app is designed to be accessible and responsive through
             the web browser on either a computer or a mobile device.
             <br />
@@ -47,16 +64,15 @@
             development, and
             deployment. The first semester of the course was spent planning and providing our professor with a mock
             proposal
-            for the project. I defined the scope and requirements and how the app would address a user need and help
+            for the project. I defined how the app would address user needs and help
             resolve
-            their problem. I planned tickets and sprints using Jira. The second semester of the course was spent
+            their problems. I planned tickets and sprints using Jira. The second semester of the course was spent
             completing
-            those tickets by developing the project. I started with low fidelity wireframes in pencil and paper then
-            translated them to high fidelity wireframes in Adobe XD (as displayed below) as well as a
-            color palette to give my app and overall theme. I based the theme off of my university's colors (purple and
+            those tickets by developing the project. I started with low-fidelity wireframes in pencil and paper, then
+            translated them to high-fidelity wireframes in Adobe XD (as displayed below), as well as a
+            color palette to give my app an overall theme. I based the theme off of my university's colors (purple and
             white). Then, I implemented those wireframes using Vue.js and Tailwind CSS. I used a mock backend to start
-            but
-            then connected the project to a backend I built using Express and MongoDB for my database.
+            and later connected the project to a backend I built using Express and MongoDB for my database.
           </p>
         </div>
       </div>
@@ -79,11 +95,11 @@
       <p class="text-base my-4">
         In my User Experience Design (DDN-240) class at Grand Canyon University,
         our task was to design a mobile application for podcast listening using
-        Adobe XD. We also did user testing in Maze to determine if we needed to make changes to the user flow and/or
+        Adobe XD. We also did user testing in Maze to determine if we needed to make changes to the user flow or
         design. We started off by conducting research and interviews, sketching the wireframes on paper,
         then
-        implementing them in Adobe XD as low fidelity wireframes, and finally designing the color palette, typography,
-        and more to create the final high fidelity wireframes.
+        implementing them in Adobe XD as low-fidelity wireframes. Lastly, we designed the color palette, typography,
+        and more to create the final high-fidelity wireframes.
       </p>
       <div class="project-flex pb-10">
         <img class="project-flex-item ux-wireframe" src="./assets/uxclass/login-main.png" alt="Login wireframe" />
@@ -98,10 +114,10 @@
       <h3 class="text-base italic text-brand-lightblue">April 2023</h3>
 
       <p class="text-base my-4 pb-10">
-        In my Human Computer Interaction and Communication Class (CST-320) my class of 11 students collaborated with
+        In my Human Computer Interaction and Communication class (CST-320), my class of 11 students collaborated with
         a museum in Wilcox, AZ to make a VR game for them. They expressed their goal was to immerse their visitors in
         the experience of what Wilcox was like back
-        in the 1880s. The initial phase of this project was completed in April 2023. My role was on the a small team
+        in the 1880s. The initial phase of this project was completed in April 2023. I was part of a small team
         where we
         worked to build a telegraph station.
         We used Unity and C# to develop the game, and Oculus Quest 2 headsets play it.
@@ -115,10 +131,12 @@
         <img class="minesweeperSnippet" src="./assets/minesweeper/minesweeper.png" alt="Minesweeper Board" />
       </div>
       <p class="text-base my-4">
-        In my C# III class we learned how to take an implementation of the game Minesweeper from a console with no user
-        interface to a web based game in a group project. This was the first class where I worked a team to build an
+        In my C# III class, we learned how to take an implementation of the game Minesweeper from a console with no user
+        interface to a web-based game in a group project. This was the first class where I worked with a team to build
+        an
         application.
-        The requirements for the project were a user login/registration system, a minesweeper game, and a way to save
+        The requirements for the project were to implement a user login/registration system, a minesweeper game, and a
+        way to save
         game progress for the user to come back later.
       </p>
       <hr />
@@ -242,19 +260,19 @@ export default {
   .intro {
     margin-inline: 24px;
   }
-  
+
   .dfj-logo {
     max-width: 250px;
     max-height: 250px;
   }
-  
+
   .profile {
     width: 180px;
     height: 180px;
     margin-bottom: 20px;
     min-width: 150px;
   }
-  
+
   .project-flex-item {
     width: 90%;
   }
@@ -270,11 +288,11 @@ export default {
     text-align: center;
     white-space: pre-line;
   }
-  
+
   .profile {
     height: 150px;
     width: 150px;
-    
+
   }
 
   .my-work {
@@ -282,34 +300,34 @@ export default {
     margin-right: 0rem;
     margin-top: 0rem;
   }
-  
+
   .flex-col.ml-6 {
-    margin-left: 0; 
+    margin-left: 0;
   }
-  
+
   h2.text-3xl {
     font-size: 1.5rem;
   }
-  
+
   h2.text-2xl {
     font-size: 1.25rem;
   }
-  
+
   .mx-20 {
     margin-left: 12px;
     margin-right: 12px;
   }
-  
+
   .dfj-logo {
     max-width: 200px;
     max-height: 200px;
   }
-  
+
   /* project descriptions */
   .project-flex-item {
     width: 100%;
   }
-  
+
   hr {
     margin: 24px 0;
   }
@@ -320,16 +338,16 @@ export default {
   .profile {
     width: 120px;
     height: 120px;
-  } 
-  
+  }
+
   .text-base {
     font-size: 0.9rem;
   }
-  
+
   .minesweeper {
     grid-template-columns: 1fr;
   }
-  
+
   .project-flex-item.ux-wireframe {
     max-width: 280px;
   }
