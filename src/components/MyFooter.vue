@@ -28,7 +28,7 @@
     </div>
 
   </footer>
-  <div class="flex justify-center">
+  <div class="flex justify-center mb-5">
     <a target="_blank" href="https://icons8.com/icon/121443/dog"
       class="text-white hover:text-gray-300 transition-colors duration-300 font-medium">Dog&nbsp;</a> icon by&nbsp;<a
       class="text-white hover:text-gray-300 transition-colors duration-300 font-medium" target="_blank"
