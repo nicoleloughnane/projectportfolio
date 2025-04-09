@@ -3,12 +3,26 @@
 @tailwind utilities;
 
 .main {
-    margin-left: 160px;
-    margin-right: 160px;
-    padding-top: 20px;
+  margin-left: 160px;
+  margin-right: 160px;
+  padding-top: 20px;
 }
 
 body {
-    background-color: #0a2647;
-    color: #fff;
+  background-color: #0a2647;
+  color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    margin-left: 60px;
+    margin-right: 60px;
   }
+}
+
+@media screen and (max-width: 650px) {
+    .main {
+        margin-left: 80px;
+        margin-right: 80px;
+      }
+}

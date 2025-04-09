@@ -4,8 +4,8 @@
   <div class="main">
     <div class="intro">
       <img class="profile" src="./assets/profile-picture-circle.png" />
-      <div class="flex-col ml-6">
-        <h2 class="text-3xl mb-3">Hello, I'm Nicole Buckley!</h2>
+      <div class="flex-layout">
+        <h2 class="header mb-3">Hello, I'm Nicole Buckley!</h2>
         <p class="text-base">
           I am a UX/UI engineer currently working in the defense and intelligence
           industry. I specialize in pioneering new frontend projects to improve user experiences by modernizing legacy
@@ -13,7 +13,7 @@
           applying user feedback, and more! My passion lies in
           learning user needs and translating them into user-centered experiences and well-rounded documentation.
         </p>
-        <h2 class="text-2xl my-4">About Me</h2>
+        <h2 class="about-me-text my-4">About Me</h2>
         <p class="text-base my-4">
           My journey in the realm of computer science started in college when I decided I wanted to combine
           my interests in art and computers into frontend development as well as UI design. Currently, I reside in
@@ -27,7 +27,8 @@
 
     <!--projects-->
     <div class="my-work">
-      <h2 class="text-3xl my-4">My Work</h2>
+      <h2 class="header my-4">My Work</h2>
+      <!--PSG-->
       <h3 class="text-xl my-4 font-bold">Prime Solutions Group, Inc.</h3>
       <h3 class="text-s my-4">Associate Software Engineer | Software/Cloud Intern</h3>
       <h3 class="text-base italic text-brand-lightblue mb-3">June 2023 - present</h3>
@@ -49,7 +50,7 @@
       <h3 class="text-base italic text-brand-lightblue">September 2023 - April 2023</h3>
       <div class="intro">
         <img class="dfj-logo" src="./assets/dailyfaithjournal/dfj-logo.png" />
-        <div class="flex-col ml-6">
+        <div class="flex-layout">
           <p class="text-base mt-4 mb-8">
             My CST 452 Senior Capstone Project at Grand Canyon University, called Daily
             Faith Journal, was built with the MEVN stack (MongoDB, Express, Vue, and Node).
@@ -90,7 +91,6 @@
       </div>
       <hr />
       <!--Podcast Prototype project-->
-      <!--description-->
       <h3 class="text-xl my-4 font-bold">Podcast Prototype Application</h3>
       <p class="text-base my-4">
         In my User Experience Design (DDN-240) class at Grand Canyon University,
@@ -178,16 +178,20 @@ export default {
   margin-bottom: 40px;
 }
 
+.about-me-text {
+  font-size: 1.5rem;
+  line-height: 2rem
+}
+
+.header {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .my-work {
-  margin-left: 5rem
-    /* 80px */
-  ;
-  margin-right: 5rem
-    /* 80px */
-  ;
-  margin-top: 2rem
-    /* 32px */
-  ;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 2rem;
 }
 
 /* project image styles */
@@ -206,18 +210,16 @@ export default {
   gap: 20px;
 }
 
+.flex-layout {
+  flex-direction: column;
+  margin-left: 1.5rem
+}
+
 /* minesweeper layout */
 .minesweeper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px;
-}
-
-.minesweeperSnippet {
-  max-width: 90%;
-  height: auto;
-  object-fit: cover;
-  image-rendering: pixelated;
 }
 
 .dfj-logo {
@@ -247,11 +249,6 @@ export default {
 @media screen and (max-width: 1024px) {
   .main {
     padding: 0 16px;
-  }
-
-  .mx-20 {
-    margin-left: 16px;
-    margin-right: 16px;
   }
 }
 
@@ -301,21 +298,16 @@ export default {
     margin-top: 0rem;
   }
 
-  .flex-col.ml-6 {
+  .flex-layout {
     margin-left: 0;
   }
 
-  h2.text-3xl {
+  .header {
     font-size: 1.5rem;
   }
 
-  h2.text-2xl {
+  .about-me-text {
     font-size: 1.25rem;
-  }
-
-  .mx-20 {
-    margin-left: 12px;
-    margin-right: 12px;
   }
 
   .dfj-logo {
@@ -323,33 +315,18 @@ export default {
     max-height: 200px;
   }
 
-  /* project descriptions */
   .project-flex-item {
     width: 100%;
   }
 
-  hr {
-    margin: 24px 0;
-  }
 }
 
-/* extra small */
+/* extra small screen */
 @media screen and (max-width: 480px) {
-  .profile {
-    width: 120px;
-    height: 120px;
-  }
+
 
   .text-base {
     font-size: 0.9rem;
-  }
-
-  .minesweeper {
-    grid-template-columns: 1fr;
-  }
-
-  .project-flex-item.ux-wireframe {
-    max-width: 280px;
   }
 }
 </style>
