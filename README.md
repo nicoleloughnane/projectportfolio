@@ -1,4 +1,6 @@
-# projectportfolio
+# Project Portfolio
+
+A portfolio about me and projects I have worked on
 
 ## Project setup
 ```
@@ -13,11 +15,6 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
 
 ### Customize configuration
