@@ -17,10 +17,8 @@
         <p class="text-base my-4">
           My journey in the realm of computer science started in college when I decided I wanted to combine
           my interests in art and computers into frontend development as well as UI design. Currently, I reside in
-          Phoenix, AZ, where I spend my free
-          time
-          playing video games, drawing, and spending time with
-          my family.
+          Littleton, CO where I spend my free
+          time cooking, playing video games, drawing, and spending time with my family.
         </p>
       </div>
     </div>
